@@ -1,0 +1,418 @@
+/* Нульові стилі для вашого сайту */
+
+/* Загальні скидання */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Скидання стилів для html та body */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+}
+
+/* Скидання стилів для заголовків та параграфів */
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+/* Скидання стилів для зображень */
+img {
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    display: block;
+}
+
+/* Скидання стилів для посилань */
+a {
+    background-color: transparent;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Скидання стилів для списків */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Скидання стилів для кнопок */
+button {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* Скидання стилів для навігаційних елементів */
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+/* Скидання стилів для секцій */
+section {
+    margin: 0;
+    padding: 0;
+}
+
+/* Нульові стилі для вашого сайту кінець*/
+
+body {
+    font-family: sans-serif;
+    background-color: #1a1a1a;
+}
+
+.nav-links a {
+    background-color: red;
+    padding: 12px 24px;
+    font-size: 32px;
+    border-radius: 32px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+header,
+nav {
+    width: 100%;
+    padding: 12PX;
+}
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    padding: 32px;
+    color: white;
+    font-size: 32px;
+}
+
+.banner_sec {
+    display: flex;
+}
+
+.banner_1 {
+    background-image: url("https://www.overclockers.ua/news/video/132684-rtx-4060ti-fe-1.jpg");
+}
+
+.banner_2 {
+    background-image: url("https://i.pinimg.com/736x/1b/ac/6e/1bac6e4b0d74e4c4be8415971fe1dd98.jpg");
+}
+
+.banner_3 {
+    background-image: url("https://i.pinimg.com/736x/f2/df/5f/f2df5fb0532bdee92032183e42c2f13a.jpg");
+}
+
+.banner_4 {
+    background-image: url("https://www.techspot.com/articles-info/2409/images/12100F-10.jpg");
+}
+
+
+#section2 {
+    padding: 60px 20px;
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular_card {
+    width: 369px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.popular_card h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #f8b400;
+}
+
+.popular_card p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.banner:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+
+
+#section3 {
+    padding: 144px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+#section3 img {
+    max-width: 50%;
+    border-radius: 10px;
+}
+
+#section3 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#section3 h2 {
+    font-size: 2rem;
+    margin: 15px 0;
+}
+
+.button {
+    background-color: #ff6f00;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #ff8f00;
+}
+
+#section3 .button:active {
+    background-color: #e65100;
+}
+
+#section4 {
+    width: 100%;
+    max-width: 1440px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.product-card {
+    width: 300px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.product-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+    height: 125px;
+    max-width: 250px;
+}
+
+.product-price {
+    font-size: 1.25rem;
+    color: #ff6f00;
+    margin-bottom: 15px;
+}
+
+.product-button {
+    background-color: #ff6f00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-button:hover {
+    background-color: #ff8f00;
+}
+
+.product-button:active {
+    background-color: #e65100;
+}
+
+/* General Footer Styles */
+.site-footer {
+    color: #ffffff;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for better alignment */
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer_flex {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation Links */
+.footer-nav {
+    margin-bottom: 20px;
+}
+
+.footer-nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #ff6600;
+    /* Accent color on hover */
+}
+
+/* Social Media Links */
+.footer-social {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.footer-social span {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.footer-social a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #ff6600;
+    /* Accent color on hover */
+}
+
+/* Additional Links */
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ff6600;
+    /* Accent color on hover */
+}
+
+/* Contact Information */
+.footer-contact {
+    margin-bottom: 20px;
+}
+
+.footer-contact a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-contact a:hover {
+    color: #ff6600;
+    /* Accent color on hover */
+}
+
+/* Copyright Information */
+.footer-copy {
+    margin-top: 20px;
+    font-size: 0.875em;
+    color: #aaaaaa;
+    /* Lighter grey for copyright */
+}
